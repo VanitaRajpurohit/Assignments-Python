@@ -1,0 +1,9 @@
+'''
+Sort list in descending order
+'''
+
+list1=input("Enter the numbers in the list:")
+list1 = list1.split(" ")
+print("Entered list is:",list1)
+list1.sort(reverse = True)
+print("Sorted list is:",list1)
